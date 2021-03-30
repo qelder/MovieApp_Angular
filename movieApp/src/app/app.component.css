@@ -1,0 +1,85 @@
+header {
+  /* background-color: #01b4e4; */
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  min-height: calc(100vh - 75px);
+}
+
+footer {
+  background-color: black;
+  height: 75px;
+  color: white;
+  font-family: 'Montserrat', sans-serif; 
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin-top: 10px;
+  flex-shrink: 0;
+  font-size: 12px;
+}
+
+.tmdb {
+  width: 75px;
+}
+
+.tmdb-logo {
+ padding-top: 10px; 
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 4px;
+  margin-left: 30px;
+  font-size: 40px;
+}
+
+nav    {
+  color: #D01698; 
+  font-family: 'Montserrat', sans-serif;  
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-user-circle {
+  padding-left: 50px;
+  size:7px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: #2df1e4;
+}
+
+.myWatchList {
+  color: #3813e5;
+}
+
+@media only screen and (min-width: 768px) {
+  footer {
+      background-color: black;
+      height: 75px;
+      color: white;
+      font-family: 'Montserrat', sans-serif; 
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+      margin-top: 10px;
+      flex-shrink: 0;
+  }
+
+  .tmdb {
+      width: 150px;
+  }
+}
+
+
+
